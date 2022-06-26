@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+#include "backM.hpp"
+
 void Series(){
     int loop;
     float R[50], result(0);
@@ -20,5 +22,6 @@ void Series(){
         result += R[i];
     }
 
-    cout << "Total Resistance of your circuit= " << result;
+    cout << "Total Resistance of your circuit= " << result << endl;
+    backMenu();
 }

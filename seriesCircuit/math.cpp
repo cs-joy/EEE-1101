@@ -3,21 +3,13 @@ using namespace std;
 
 #include "parallel.hpp"
 #include "series.hpp"
+#include "optionM.hpp"
 
 int main(){
 
-    int like;
-
-    cout << "Choose one option for calculation: \n";
-    cout << "1. Series Circuit\n";
-    cout << "2. Parallel Circuit\n";
-
-    cin >> like;
-
-    if(like == 1){
-        Series();
-    } else {
-        Parallel();
+    while(true){
+        optionMenu();
     }
+
     return 0;
 }

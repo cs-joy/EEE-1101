@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+#include "backM.hpp"
+
 void Parallel(){
     int loop;
     float R[50], result(0), parallel;
@@ -22,5 +24,6 @@ void Parallel(){
 
     parallel = 1 / result;
 
-    cout << "Total Resistance of your circuit= " << parallel;
+    cout << "Total Resistance of your circuit= " << parallel << endl;
+    backMenu();
 }
