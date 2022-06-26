@@ -4,8 +4,12 @@ using namespace std;
 void Parallel(){
     int loop;
     float R[50], result(0), parallel;
+    
+    cout << "-----------------\n";
+    cout << "Parallel Circuit\n";
+    cout << "-----------------\n";
 
-    cout << "How much resistance available in your circuit?";
+    cout << "How much resistance available in your circuit?\n";
     cin >> loop;
 
     cout << "Value of Resitances" << endl;

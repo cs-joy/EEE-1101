@@ -4,8 +4,12 @@ using namespace std;
 void Series(){
     int loop;
     float R[50], result(0);
+    
+    cout << "-----------------\n";
+    cout << "Series Circuit\n";
+    cout << "-----------------\n";
 
-    cout << "How much resistance available in your circuit?";
+    cout << "How much resistance available in your circuit?\n";
     cin >> loop;
 
     cout << "Value of Resitances" << endl;
